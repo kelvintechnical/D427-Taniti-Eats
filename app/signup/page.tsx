@@ -58,34 +58,6 @@ export default function SignUpPage() {
                       </div>
                     </div>
                   </div>
-                  {/* business/pleasure */} {/* business/pleasure */}
-                  <div className="space-y-2">
-                    <Label className="text-sm">Trip Purpose</Label>
-                    <div className="flex items-center space-x-4">
-                      <div className="flex items-center space-x-2">
-                        <input
-                          type="radio"
-                          id="business"
-                          name="tripPurpose"
-                          value="business"
-                          className="h-4 w-4 text-primary border-gray-300"
-                          required
-                        />
-                        <Label htmlFor="business">Business</Label>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <input
-                          type="radio"
-                          id="pleasure"
-                          name="tripPurpose"
-                          value="pleasure"
-                          className="h-4 w-4 text-primary border-gray-300"
-                          required
-                        />
-                        <Label htmlFor="pleasure">Pleasure</Label>
-                      </div>
-                    </div>
-                  </div>
                   {/* business/pleasure */}
                   <div className="space-y-2">
                     <Label htmlFor="firstName">First Name</Label>
