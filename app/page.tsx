@@ -1,8 +1,8 @@
-import { Navigation } from "@/components/navigation"
-import { Footer } from "@/components/footer"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import Link from "next/link"
+import { Navigation } from "@/components/navigation";
+import { Footer } from "@/components/footer";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import Link from "next/link";
 
 export default function HomePage() {
   return (
@@ -21,16 +21,14 @@ export default function HomePage() {
         </div>
 
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">Welcome to Taniti</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">
+            Welcome to Taniti
+          </h1>
           <p className="text-xl md:text-2xl mb-8 text-balance opacity-90">
-            Discover paradise on earth. Crystal waters, pristine beaches, and unforgettable adventures await.
+            Discover paradise on earth. Crystal waters, pristine beaches, and
+            unforgettable adventures await.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            {/* <Link href="/activities">
-              <Button size="lg" className="text-lg px-8 py-3">
-                Explore Activities
-              </Button>
-            </Link> */}
             <Link href="/about">
               <Button
                 size="lg"
@@ -48,9 +46,12 @@ export default function HomePage() {
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-contrast mb-4">Why Choose Taniti?</h2>
+            <h2 className="text-4xl font-bold text-contrast mb-4">
+              Why Choose Taniti?
+            </h2>
             <p className="text-xl text-contrast-muted max-w-2xl mx-auto">
-              Experience the perfect blend of natural beauty, adventure, and relaxation
+              Experience the perfect blend of natural beauty, adventure, and
+              relaxation
             </p>
           </div>
 
@@ -63,9 +64,12 @@ export default function HomePage() {
                     backgroundImage: `url('/pristine-tropical-beach-with-white-sand-and-palm-t.jpg')`,
                   }}
                 />
-                <h3 className="text-2xl font-semibold mb-4 text-contrast">Pristine Beaches</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-contrast">
+                  Pristine Beaches
+                </h3>
                 <p className="text-contrast-muted">
-                  Miles of untouched white sand beaches with crystal-clear waters perfect for swimming and relaxation.
+                  Miles of untouched white sand beaches with crystal-clear
+                  waters perfect for swimming and relaxation.
                 </p>
               </CardContent>
             </Card>
@@ -78,9 +82,12 @@ export default function HomePage() {
                     backgroundImage: `url('/tropical-adventure-activities-like-snorkeling-and-.jpg')`,
                   }}
                 />
-                <h3 className="text-2xl font-semibold mb-4 text-contrast">Adventure Awaits</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-contrast">
+                  Adventure Awaits
+                </h3>
                 <p className="text-contrast-muted">
-                  From snorkeling in coral reefs to hiking through lush rainforests, adventure is around every corner.
+                  From snorkeling in coral reefs to hiking through lush
+                  rainforests, adventure is around every corner.
                 </p>
               </CardContent>
             </Card>
@@ -93,9 +100,12 @@ export default function HomePage() {
                     backgroundImage: `url('/tropical-island-cuisine-and-dining-experience.jpg')`,
                   }}
                 />
-                <h3 className="text-2xl font-semibold mb-4 text-contrast">Island Cuisine</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-contrast">
+                  Island Cuisine
+                </h3>
                 <p className="text-contrast-muted">
-                  Savor fresh seafood and tropical flavors at our world-class restaurants and local eateries.
+                  Savor fresh seafood and tropical flavors at our world-class
+                  restaurants and local eateries.
                 </p>
               </CardContent>
             </Card>
@@ -106,9 +116,12 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto text-center px-4">
-          <h2 className="text-4xl font-bold mb-6">Ready for Your Island Adventure?</h2>
+          <h2 className="text-4xl font-bold mb-6">
+            Ready for Your Island Adventure?
+          </h2>
           <p className="text-xl mb-8 opacity-90">
-            Join thousands of travelers who have discovered the magic of Taniti Island
+            Join thousands of travelers who have discovered the magic of Taniti
+            Island
           </p>
           <Link href="/signup">
             <Button size="lg" variant="secondary" className="text-lg px-8 py-3">
@@ -120,5 +133,5 @@ export default function HomePage() {
 
       <Footer />
     </div>
-  )
+  );
 }
