@@ -1,0 +1,14 @@
+# netlify.toml
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# If your Next.js app is in a subfolder, set base here:
+# base = "frontend"
+
+# Netlify functions (optional, only if you use serverless functions)
+functions = "netlify/functions"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
